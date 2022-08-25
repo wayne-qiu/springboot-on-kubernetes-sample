@@ -15,6 +15,11 @@ $ docker run --name mongodb -d -p 27017:27017 \
   mongo:latest
 ```
 
+
+Spring Boot Integration Testing with Embedded MongoDB
+https://www.baeldung.com/spring-boot-embedded-mongodb
+
+
 Mongo for OpenShift:
 ```shell
 $ oc new-app https://raw.githubusercontent.com/openshift/origin/master/examples/db-templates/mongodb-ephemeral-template.json 
