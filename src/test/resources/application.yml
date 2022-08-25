@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: sample-spring-boot-on-kubernetes
+  data:
+    mongodb:
+      #uri: mongodb://localhost:27071/test
+      host: 172.17.0.2
+      #${MONGO_URL}
+      port: 27017
+      username: springboot
+      #${MONGO_USERNAME}
+      password: springboot123
+      #${MONGO_PASSWORD}
+      database: springboot
+      authentication-database: admin
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
