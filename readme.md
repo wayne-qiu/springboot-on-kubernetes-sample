@@ -1,4 +1,6 @@
-# Spring Boot on Kubernetes Demo Project [![Twitter](https://img.shields.io/twitter/follow/piotr_minkowski.svg?style=social&logo=twitter&label=Follow%20Me)](https://twitter.com/piotr_minkowski)
+From: https://piotrminkowski.com/2021/03/01/spring-boot-on-knative/
+
+# Spring Boot on Kubernetes Demo Project
 
 In this project I'm demonstrating different mechanisms of deploying application on Kubernetes. The example application application is simple Spring Boot app that exposes some HTTP endpoints for CRUD operations and connects to MongoDB on cluster.
 
